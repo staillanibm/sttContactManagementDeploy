@@ -124,8 +124,6 @@ spec:
             items:
             - key:  es-cert.p12
               path: es-cert.p12
-      imagePullSecrets:
-        - name: regcred
 
 ---
 
