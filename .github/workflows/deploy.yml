@@ -36,7 +36,7 @@ jobs:
       run: |
         kustomize build . > deploy_target.yaml
         cat deploy_target.yaml
-        kubectl apply -f deploy_target.yaml --wait --timeout=300s
+        kubectl apply -f deploy_target.yaml --namespace ${{ vars.K8S_NAMESPACE }} --wait --timeout=300s
 
   newman_tests:
     needs: deploy
