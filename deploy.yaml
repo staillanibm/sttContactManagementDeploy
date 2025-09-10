@@ -33,6 +33,7 @@ data:
     globalvariable.ES_BOOTSTRAP_URL.value=$secret{ES_BOOTSTRAP_URL}
     globalvariable.ES_USERNAME.value=$secret{ES_USERNAME}
     globalvariable.ES_PASSWORD.value=$secret{ES_PASSWORD}
+    globalvariable.ES_PASSWORD.isSecure=true
     globalvariable.EVENT_SYSTEM.value=KAFKA
     globalvariable.sttContactManagement.EVENT_CONNECTION_ALIAS.value=sttContactManagement_es
 
