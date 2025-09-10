@@ -124,7 +124,7 @@ spec:
                   key: SAG_IS_CLOUD_REGISTER_TOKEN
                   name: stt-contact-management
             - name: SAG_IS_CLOUD_ALLOW_SYNC
-              value: false
+              value: "false"
       volumes:
         - name: application-properties
           configMap:
