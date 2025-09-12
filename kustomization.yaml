@@ -2,4 +2,4 @@ resources:
   - deploy.yaml
 images:
   - name: ghcr.io/staillanibm/msr-contact-management
-    newTag: 1.1.20
+    newTag: 1.1.21
